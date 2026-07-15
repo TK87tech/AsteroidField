@@ -1,0 +1,95 @@
+
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug" />
+		<BuildType Name="Release" />
+		<BuildType Name="MinSizeRel" />
+		<BuildType Name="RelWithDebInfo" />
+		<Platform Name="Win32" />
+	</Configurations>
+	<Project Path="AsteroidField.vcxproj" Id="875beaf3-66a0-3422-8ec3-09ac301f20a8">
+		<BuildDependency Project="SYNC_RESOURCE-AsteroidField.vcxproj" />
+		<BuildDependency Project="ZERO_CHECK.vcxproj" />
+		<BuildDependency Project="engine/cocos/core/cocos2d.vcxproj" />
+		<BuildDependency Project="engine/external/clipper/ext_clipper.vcxproj" />
+		<BuildDependency Project="engine/external/ConvertUTF/ext_convertUTF.vcxproj" />
+		<BuildDependency Project="engine/external/edtaa3func/ext_edtaa3func.vcxproj" />
+		<BuildDependency Project="engine/external/md5/ext_md5.vcxproj" />
+		<BuildDependency Project="engine/external/poly2tri/ext_poly2tri.vcxproj" />
+		<BuildDependency Project="engine/external/recast/ext_recast.vcxproj" />
+		<BuildDependency Project="engine/external/tinyxml2/ext_tinyxml2.vcxproj" />
+		<BuildDependency Project="engine/external/unzip/ext_unzip.vcxproj" />
+		<BuildDependency Project="engine/external/xxhash/ext_xxhash.vcxproj" />
+		<BuildDependency Project="engine/external/xxtea/ext_xxtea.vcxproj" />
+		<BuildDependency Project="engine/external/external.vcxproj" />
+	</Project>
+	<Folder Name="/CMakePredefinedTargets/">
+		<Project Path="ZERO_CHECK.vcxproj" Id="356a621d-f4ee-3a53-a567-d1415ffa729b" />
+	</Folder>
+	<Folder Name="/External/">
+		<Project Path="engine/external/clipper/ext_clipper.vcxproj" Id="72e6ad33-c913-31fa-aca8-91d689980c41">
+			<BuildDependency Project="ZERO_CHECK.vcxproj" />
+		</Project>
+		<Project Path="engine/external/ConvertUTF/ext_convertUTF.vcxproj" Id="7ad50fde-4911-3e4e-a592-ceb69b6c6cc8">
+			<BuildDependency Project="ZERO_CHECK.vcxproj" />
+		</Project>
+		<Project Path="engine/external/edtaa3func/ext_edtaa3func.vcxproj" Id="80f8db0f-41d0-30ec-b986-27baa7666bce">
+			<BuildDependency Project="ZERO_CHECK.vcxproj" />
+		</Project>
+		<Project Path="engine/external/md5/ext_md5.vcxproj" Id="86c7daba-17ee-3be7-b9d2-557bdda8f5bb">
+			<BuildDependency Project="ZERO_CHECK.vcxproj" />
+		</Project>
+		<Project Path="engine/external/poly2tri/ext_poly2tri.vcxproj" Id="510ef079-39b6-327d-ac79-ec771d52ecb5">
+			<BuildDependency Project="ZERO_CHECK.vcxproj" />
+		</Project>
+		<Project Path="engine/external/recast/ext_recast.vcxproj" Id="d8f0d2a1-5365-30d2-a7c5-bdfce38c944f">
+			<BuildDependency Project="ZERO_CHECK.vcxproj" />
+		</Project>
+		<Project Path="engine/external/tinyxml2/ext_tinyxml2.vcxproj" Id="b52ac73a-62b1-335a-9f59-25a176ef0c0e">
+			<BuildDependency Project="ZERO_CHECK.vcxproj" />
+		</Project>
+		<Project Path="engine/external/unzip/ext_unzip.vcxproj" Id="932fd507-cf7b-3149-8fae-0771a4a5846b">
+			<BuildDependency Project="ZERO_CHECK.vcxproj" />
+		</Project>
+		<Project Path="engine/external/xxhash/ext_xxhash.vcxproj" Id="64c33a61-d4d8-3579-8339-94f80d969335">
+			<BuildDependency Project="ZERO_CHECK.vcxproj" />
+		</Project>
+		<Project Path="engine/external/xxtea/ext_xxtea.vcxproj" Id="7017142a-7e70-343d-8546-31cf2644eec6">
+			<BuildDependency Project="ZERO_CHECK.vcxproj" />
+		</Project>
+		<Project Path="engine/external/external.vcxproj" Id="4136d51a-a47b-3f8f-8da2-159ea0fa46e9">
+			<BuildDependency Project="ZERO_CHECK.vcxproj" />
+			<BuildDependency Project="engine/external/clipper/ext_clipper.vcxproj" />
+			<BuildDependency Project="engine/external/ConvertUTF/ext_convertUTF.vcxproj" />
+			<BuildDependency Project="engine/external/edtaa3func/ext_edtaa3func.vcxproj" />
+			<BuildDependency Project="engine/external/md5/ext_md5.vcxproj" />
+			<BuildDependency Project="engine/external/poly2tri/ext_poly2tri.vcxproj" />
+			<BuildDependency Project="engine/external/recast/ext_recast.vcxproj" />
+			<BuildDependency Project="engine/external/tinyxml2/ext_tinyxml2.vcxproj" />
+			<BuildDependency Project="engine/external/unzip/ext_unzip.vcxproj" />
+			<BuildDependency Project="engine/external/xxhash/ext_xxhash.vcxproj" />
+			<BuildDependency Project="engine/external/xxtea/ext_xxtea.vcxproj" />
+		</Project>
+	</Folder>
+	<Folder Name="/Internal/">
+		<Project Path="engine/cocos/core/cocos2d.vcxproj" Id="777b919a-4d47-3add-930a-aca1091f489c">
+			<BuildDependency Project="ZERO_CHECK.vcxproj" />
+			<BuildDependency Project="engine/external/clipper/ext_clipper.vcxproj" />
+			<BuildDependency Project="engine/external/ConvertUTF/ext_convertUTF.vcxproj" />
+			<BuildDependency Project="engine/external/edtaa3func/ext_edtaa3func.vcxproj" />
+			<BuildDependency Project="engine/external/md5/ext_md5.vcxproj" />
+			<BuildDependency Project="engine/external/poly2tri/ext_poly2tri.vcxproj" />
+			<BuildDependency Project="engine/external/recast/ext_recast.vcxproj" />
+			<BuildDependency Project="engine/external/tinyxml2/ext_tinyxml2.vcxproj" />
+			<BuildDependency Project="engine/external/unzip/ext_unzip.vcxproj" />
+			<BuildDependency Project="engine/external/xxhash/ext_xxhash.vcxproj" />
+			<BuildDependency Project="engine/external/xxtea/ext_xxtea.vcxproj" />
+			<BuildDependency Project="engine/external/external.vcxproj" />
+		</Project>
+	</Folder>
+	<Folder Name="/Utils/">
+		<Project Path="SYNC_RESOURCE-AsteroidField.vcxproj" Id="6efc0d15-66e0-3e27-a799-3ba7dc1b905a">
+			<BuildDependency Project="ZERO_CHECK.vcxproj" />
+		</Project>
+	</Folder>
+</Solution>

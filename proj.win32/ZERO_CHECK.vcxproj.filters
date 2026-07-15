@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\HP\Documents\Games_Portfolio\AsteroidField\proj.win32\CMakeFiles\b2c3e0f6ecffef4a4254b8e09636c027\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9DAAAFA0-3DCB-3FDE-9C66-82A25D3E0A9B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
